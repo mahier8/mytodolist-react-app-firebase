@@ -10,6 +10,8 @@ import InputLabel from "@material-ui/core/InputLabel";
 import db from "./firebase";
 import firebase from "firebase";
 
+require("dotenv").config();
+
 function App() {
   // one state for creating an array of todos
   const [todos, setTodos] = useState([]);
